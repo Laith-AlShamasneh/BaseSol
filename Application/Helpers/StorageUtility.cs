@@ -243,7 +243,7 @@ internal static class StorageUtilityHelper
             return null;
 
         var fileNameWithExtension = Path.GetFileName(matched);
-        return await GetFileAsync(rootPath, relativeFolderPath, fileNameWithExtension, baseUrl, cancellationToken);
+        return await GetFileByNameWithExtensionAsync(rootPath, relativeFolderPath, fileNameWithExtension, baseUrl, cancellationToken);
     }
 
     /// <summary>
