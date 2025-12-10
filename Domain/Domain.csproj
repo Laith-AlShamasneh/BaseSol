@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\LookupManagement\" />
+    <Folder Include="Entities\AuthManagement\" />
+    <Folder Include="Entities\SystemManagement\" />
+    <Folder Include="Interfaces\AuthManagement\" />
+    <Folder Include="Interfaces\LookupManagement\" />
+    <Folder Include="Interfaces\SystemManagement\" />
+  </ItemGroup>
+
+</Project>
